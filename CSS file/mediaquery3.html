@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODING ARMY</title>
+    <style>
+        .container{
+            border: 2px dotted black;
+            height: 300px;
+            width: 300px;
+            display: flex;
+
+        }
+        #boxleft{
+            border: 1px dotted red;
+            height: 100px;
+           
+            width: 100px;
+            p{
+                border:5px dotted blue ;
+            }
+
+        }
+        p{
+            border: 3px dotted blue;
+        }
+        #boxright{
+            border: 3px dotted red;
+            height:100px;
+            width: 100px;
+
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        @media(min-width:216px){
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media(max-width:217px){
+            .container{
+                flex-direction: column;
+            }
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <p>text 1</p>
+            <p>text 2</p>
+        </div>
+        <div id="boxright">
+            <img src="elepahat.jpg" alt="elephant">
+        </div>
+    </div>
+</body>
+</html>

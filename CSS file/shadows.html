@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <style>
+        .container{
+            border: 2px black solid;
+            height: 1000px;
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            border: 2px red solid;
+            height: 600px;
+            width: 300px;
+            background-color: aqua;
+          /*  box-shadow: 10px 15px brown;*/
+          /*blur effect*/
+        }
+        .box1{
+            border: 2px red solid;
+            height: 600px;
+            width: 300px;
+            background-color: aqua;
+            flex-direction: row;
+          /*  box-shadow: -10px 15px brown;*/
+         /* box-shadow: 20px 20px 10px red;*/
+       /*  box-shadow: 10px 10px 15px 15px red; spread shadow*/
+     /*  box-shadow: inset 10px 10px; iska mtlb shadow andr dena*/
+   /*  box-shadow: 10px 15px red, 10px 15px blue; double shadow */
+        }
+        #sam{
+       text-shadow: 2px 2px 2px green;
+     /*text-shadow: 10px 5px;*/
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="logo.jpg" alt="logo">
+            <h1 id="sam">welcome to codingarmy</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis tempora voluptate quisquam repellat, earum ad, exercitationem sit porro officia facilis odit accusamus architecto necessitatibus provident.</p>
+        </div>
+        <div class="box1">
+            <img src="logo.jpg" alt="logo">
+            <h1>welcome to codingarmy</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis tempora voluptate quisquam repellat, earum ad, exercitationem sit porro officia facilis odit accusamus architecto necessitatibus provident.</p>
+       
+        </div>
+    </div>
+</body>
+</html>

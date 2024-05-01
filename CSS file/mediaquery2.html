@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODING ARMY</title>
+    <style>
+        .container{
+            border: 2px black dotted;
+            padding: 30px;
+            margin: 30px;
+            height: 700px;
+            width: 700px;
+            display: flex;
+
+        }
+        #box1{
+            border: 1px red dotted;
+            height: 70px;
+            width: 70px;
+            background-color: blue;
+
+        }
+        #box2{
+            border: 1px red dotted;
+            height: 70px;
+            width: 70px;
+            background-color: green;
+
+
+        }
+        #box3{
+            border: 1px red dotted;
+            height: 70px;
+            width: 70px;
+            background-color: pink;
+
+
+        }
+        #box4{
+            border: 1px red dotted;
+            height: 70px;
+            width: 70px;
+            background-color: yellow;
+
+
+
+        }
+        @media(min-width:368px){
+            .container{
+                flex-direction: row;
+            }
+
+        }
+        @media(max-width:368px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
+</html>

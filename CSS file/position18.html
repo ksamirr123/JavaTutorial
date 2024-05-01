@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img1{
+            position: relative;/*isme jo ham kisi image ki position chnge krte hai toh uska gap wesa hi rhta hai*/
+
+            top: 100px;
+            left: 20px;
+        
+        }
+        .img2{
+            position: absolute;/*isme gap nhi rehta hai wo koi or occuppy kr leta hai*/
+            left: 30px;
+            top: 108px;
+        
+
+
+
+        }
+        .img3{
+            position: fixed;/* isme img fix ho jayegi or baaki ki img move krengi bs ye nhi */
+
+
+
+        }
+        .img4{
+            position: sticky;/*ye sirf apne parent container tk fixed rehti haijese hi diiara container 
+            aata hai ye move kr jaati hai*/
+            top: 100px;
+        
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="elepahat.jpg" alt="ELEPHANT"
+        width="100px" height="100px"
+        class="img1" >
+        <img src="snowdeer.webp" alt="SNOWDEER"
+        width="100px"
+        height="100px"
+        class="img2">
+        <img src="lion11.jpg" alt="lion" width="100px" height="100px"
+        class="img3">
+        <img src="lion.avif" alt="lionnn" width="100px" height="100px" 
+        class="img4">
+
+    </div>
+    
+</body>
+</html>
